@@ -1,0 +1,252 @@
+* {
+    
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: Arial, Helvetica, sans-serifs;
+    background-color: rgb(17, 17, 17);
+    margin: 0px;
+    display: block;
+    overflow-x: hidden;
+}
+
+#left-side {
+    margin-left: 8%;
+    float: left;
+}
+#right-side {
+    float: right;
+}
+
+.display-button {
+
+    width: 60%;
+    height: 10%;
+    background-color: #192230;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    margin: 10px auto;
+    display: block;
+    padding: 23px;
+    border: none;
+}
+
+#show-road {
+    background-image: url("insert.png");
+    background-size: 99%;
+}
+
+#show-results {
+    background-image: url("results.png");
+    background-size: 99%;
+}
+.display-button:hover {
+
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+}
+
+#add-point-button {
+
+    width: 20%;
+    height: 4vh;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(58, 93, 207);
+    color: white;
+    border-radius: 1.5vh;
+    margin: 0 5%;
+    float: left;
+}
+
+#delete-point-button {
+
+    width: 20%;
+    height: 4vh;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(207, 58, 58);
+    color: white;
+    margin: 0 5%;
+    border-radius: 1.5vh;
+    display: block;
+    float: left;
+}
+
+#menu-bar {
+
+    height: 100vh;
+    width: 8%;
+    margin-right: 8%;
+    background-color: #192230;
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    float: left;
+}
+
+#add-car-button {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(58, 93, 207);
+    color: white;
+    width: 18%;
+    padding: 1.5%;
+    border-radius: 1.5vh;
+    margin-left: 25%;
+    margin-right: 3%;
+}
+#del-car-button {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(207, 58, 58);
+    color: white;
+    width: 18%;
+    padding: 1.5%;
+    border-radius: 1.5vh;
+    margin-right: 15%;
+}
+
+#add-car-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#del-car-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#add-point-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#delete-point-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+.input-field {
+
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(47, 47, 47);
+    border-radius: 1vh;
+    width: 13%;
+    height: 30px;
+    color: white;
+}
+
+#simulation-button {
+
+    width: 65%;
+    height: 10vh;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(58, 93, 207);
+    border-radius: 1.5vh;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+#options {
+
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#download-button {
+    width: 65%;
+    height: 10vh;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(58, 93, 207);
+    border-radius: 1.5vh;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+#upload-data{
+    width: 65%;
+    height: 10vh;
+    background-color: rgb(27, 27, 27);
+    border-radius: 1.5vh;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+
+#upload-button {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(58, 93, 207);
+    border-radius: 1.5vh;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+#simulation-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+#download-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#upload-button:hover {
+
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#graph-velocity, #graph-acceleration {
+
+    width: 92%;
+}
+
+#car-stats-table{
+    width: 90%;
+    margin: auto;
+}
+
+#input-point {
+
+    width: 90%;
+    height: 5vh;
+    margin: auto
+}
+
+#input-point > .input-field{
+
+    margin-bottom: 5%;
+    margin-left: 3%;
+    height: 4vh;
+    display: block;
+    float: left;
+}
+
+#car-stats-input-fields > .input-field {
+
+    width: 15%;
+    margin: 2% 0px 3% 5%;
+    display: block;
+    float: left;
+}
+
+.dash-header {
+    width: 20%;
+    align-items: center;
+}
